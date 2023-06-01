@@ -13,9 +13,9 @@
     <fieldset>
       <legend>검색</legend>
       <div>
-        <label for="search">검색어</label>
         <!-- input 태그에 id 속성을 설정하면 명시적인 레이블링 -->
         <!-- name : 해당 값을 저장할 데이터 필드 이름 -->
+        <label for="search">검색어</label>
         <input id="search" type="search" placeholder="검색어" name="search" required />
       </div>
     </fieldset>
@@ -23,6 +23,7 @@
   <button type="switch" form="searchForm">검색</button>
 
       <!-- 암묵적인 레이블링 -->
+      <!-- 접근성이 떨어지기 때문에 권장하지 않음 -->
       <!-- <label for="text">
         검색어
         <input type="text" />
