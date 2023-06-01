@@ -2,7 +2,7 @@
 
 /* 전체 선택자 */
 * {
-  color: inherit
+  color: inherit;
 }
 
 /* 가상 요소 선택자1 */
@@ -29,7 +29,7 @@ body {
   text-align: center;
 }
 
-ul.menu{
+ul.menu {
 	margin: 0;
 	padding-left: 0;
   color: greenyellow;
@@ -60,8 +60,7 @@ ul.menu{
 }
 
 /* 가상 클래스 요소 */
-.menu li:nth-child(n+6),
-.menu li:nth-child(-n+3) {
+.menu li:nth-child(n+2):nth-child(-n+6) {
   color: yellow;
 }
 
